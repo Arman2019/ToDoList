@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+<body>
+    <div class="maincontainer">
+        <div class="time-container">
+            <h1>Welcome to My Page!</h1>
+            <p>You've been here for:</p>
+            <div id="timer">00:00:00</div>
+        </div>
+        <div class="container">
+            <div class="todo-header">
+                <h2>ToDo List App</h2>
+                <img src="img/Icon/task.png" height="70px" alt="">
+            </div>
+            <div class="todo-body">
+                <input type="text" class="todo-input" id="todoText" placeholder="Add Your Tasks Here ...">
+                <img src="img/Icon/add.png" id="AddUpdateClick" alt="+" onclick="CreateToDoItems()">
+            </div>
+            <h5 id="Alert"></h5>
+            <ul class="list-items" id="list-items"></ul>
+        </div>
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>
